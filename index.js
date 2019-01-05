@@ -17,7 +17,7 @@ bot.on('guildMemberAdd', member => {
 });
 
 
-require('./embed/RichEmbed');
+
 
 bot.on('message', function (message){
     if (ban.match(message)){
